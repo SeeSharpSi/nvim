@@ -10,4 +10,5 @@ Go into lua/theprimeagen/packer and run these vim commands
 ```
 Use ```:lua ColorMyPencils()``` for transparent background
 ### Thanks Prime
-I set this up using [this](https://www.youtube.com/watch?v=w7i4amO_zaE&t=562s) guide by theprimeagen
+I set this up using [this](https://www.youtube.com/watch?v=w7i4amO_zaE&t=562s) guide by theprimeagen.
+I'll keep it updated as my keybinds evolve; mainly for myself.
