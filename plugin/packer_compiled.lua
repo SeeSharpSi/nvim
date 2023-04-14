@@ -84,6 +84,16 @@ _G.packer_plugins = {
     path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
+  },
+  ["denite.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\denite.nvim",
+    url = "https://github.com/Shougo/denite.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
@@ -119,6 +129,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-treesitter-context"] = {
+    loaded = true,
+    path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter-context",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter-context"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
@@ -144,6 +159,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tmuxdir.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tmuxdir.nvim",
+    url = "https://github.com/viniarck/tmuxdir.nvim"
   },
   undotree = {
     loaded = true,
