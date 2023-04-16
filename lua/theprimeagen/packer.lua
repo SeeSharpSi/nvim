@@ -22,10 +22,9 @@ use("nvim-treesitter/nvim-treesitter-context");
 use('nvim-treesitter/playground')
 use('theprimeagen/harpoon')
 use('mbbill/undotree')
-use('neoclide/coc.nvim', { branch = 'release' })
 use('tpope/vim-fugitive')
-use('viniarck/tmuxdir.nvim')
-use('Shougo/denite.nvim')
+use("neoclide/coc.nvim", { branch = "release" })
+use('prettier/vim-prettier', { branch = "release/0.x", run = "yarn install --frozen-lockfile --production" })
 use {
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v2.x',
@@ -45,5 +44,8 @@ use {
     {'hrsh7th/cmp-nvim-lsp'}, -- Required
     {'L3MON4D3/LuaSnip'},     -- Required
 }
+}
+use {
+  'nvim-lualine/lualine.nvim'
 }
 end)

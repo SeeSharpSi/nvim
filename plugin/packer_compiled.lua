@@ -89,11 +89,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
-  ["denite.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\denite.nvim",
-    url = "https://github.com/Shougo/denite.nvim"
-  },
   harpoon = {
     loaded = true,
     path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
@@ -103,6 +98,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -160,11 +160,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["tmuxdir.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tmuxdir.nvim",
-    url = "https://github.com/viniarck/tmuxdir.nvim"
-  },
   undotree = {
     loaded = true,
     path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
@@ -174,6 +169,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-prettier"] = {
+    loaded = true,
+    path = "C:\\Users\\Syguy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-prettier",
+    url = "https://github.com/prettier/vim-prettier"
   }
 }
 
