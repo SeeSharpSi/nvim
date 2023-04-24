@@ -5,8 +5,8 @@ This is my nvim config. Enjoy!
 * [GCC](https://www.mingw-w64.org/downloads/)
 * [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
 ## Install
-Clone this repo into your nvim folder (macOS: .config/nvim | Windows: appdata/local/nvim)
-\nGo into lua/theprimeagen/packer and run these vim commands
+Clone this repo into your nvim folder (macOS: .config/nvim | Windows: appdata/local/nvim)<br>
+Go into lua/theprimeagen/packer and run these vim commands
 ```vim
 :so
 :PackerSync
