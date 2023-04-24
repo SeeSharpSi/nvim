@@ -3,6 +3,7 @@ This is my nvim config. Enjoy!
 ## Dependencies
 * [Packer](https://github.com/wbthomason/packer.nvim)
 * [GCC](https://www.mingw-w64.org/downloads/)
+* [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
 ## Install
 Go into lua/theprimeagen/packer and run these vim commands
 ```vim
