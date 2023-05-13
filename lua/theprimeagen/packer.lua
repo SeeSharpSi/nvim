@@ -23,7 +23,6 @@ use('nvim-treesitter/playground')
 use('theprimeagen/harpoon')
 use('mbbill/undotree')
 use('tpope/vim-fugitive')
-use("neoclide/coc.nvim", { branch = "release" })
 use('prettier/vim-prettier', { branch = "release/0.x", run = "yarn install --frozen-lockfile --production" })
 use {
     'VonHeikemen/lsp-zero.nvim',
