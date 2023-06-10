@@ -23,7 +23,7 @@ use('nvim-treesitter/playground')
 use('theprimeagen/harpoon')
 use('mbbill/undotree')
 use('tpope/vim-fugitive')
-use('prettier/vim-prettier', { branch = "release/0.x", run = "yarn install --frozen-lockfile --production" })
+use('jose-elias-alvarez/null-ls.nvim')
 use {
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v2.x',
@@ -47,4 +47,8 @@ use {
 use {
   'nvim-lualine/lualine.nvim'
 }
+use({
+    "aserowy/tmux.nvim",
+    config = function() return require("tmux").setup() end
+})
 end)

@@ -8,6 +8,8 @@ lsp.ensure_installed({
   'volar',
   'phpactor',
   'tailwindcss',
+  'intelephense',
+  'gopls',
 })
 require 'lspconfig'.tsserver.setup {}
 require'lspconfig'.volar.setup{
@@ -17,6 +19,7 @@ require 'lspconfig'.phpactor.setup{
     filetypes = {'php'}
 }
 require 'lspconfig'.tailwindcss.setup{}
+require 'lspconfig'.intelephense.setup{}
 
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
