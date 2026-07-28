@@ -1,0 +1,37 @@
+# Secrets and local overrides
+.env
+.env.*
+!.env.example
+.lazy.lua
+
+# Neovim state and editor debris
+*.swp
+*.swo
+*.swn
+*~
+*.bak
+*.tmp
+*.log
+*.shada
+.nvimlog
+.netrwhist
+Session.vim
+sessions/
+undo/
+swap/
+backup/
+view/
+
+# Generated dependencies and data
+lazy/
+mason/
+node_modules/
+*.db
+*.sqlite
+*.sqlite3
+lazyvim.json
+
+# Personal dictionaries and OS metadata
+spell/*.add
+.DS_Store
+Thumbs.db
