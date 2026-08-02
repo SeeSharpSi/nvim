@@ -41,6 +41,7 @@ return {
 
     vim.keymap.set({ "n", "x" }, "<leader>or",  function() return require("opencode").operator("@this ") end,        { desc = "Add range to opencode", expr = true })
     vim.keymap.set("n",          "<leader>ol", function() return require("opencode").operator("@this ") .. "_" end, { desc = "Add line to opencode", expr = true })
+    vim.keymap.set("n",          "<leader>ob", function() require("opencode").prompt("@buffer ") end,                { desc = "Add buffer to opencode" })
 
     vim.keymap.set("n", "<C-M-u>", function() require("opencode").command("session.half.page.up") end,   { desc = "Scroll opencode up" })
     vim.keymap.set("n", "<C-M-d>", function() require("opencode").command("session.half.page.down") end, { desc = "Scroll opencode down" })
